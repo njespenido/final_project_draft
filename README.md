@@ -1,6 +1,6 @@
-# final_project_draft
+# final_project
 # NJ Espenido
-### This is my final project draft, I had already had a product template and website style that I liked from my product order and I tweaked it to work and look better. also fixed previous issues of the website.
+### This is my final project.
 # Date: 
 ### 4/18/23
 # Pages Link: 
