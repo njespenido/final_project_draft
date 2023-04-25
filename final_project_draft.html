@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ascend</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+        fetch(links.json)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                let placeholder = document.querySelector("#data-output");
+                let out = "";
+                for(let link of links){
+                    out +=
+                }
+            })
+
+    </script>
+
+    <style type="text/css">
+        body {
+            background-color: black;
+            color:white;
+            font-family: "Arial";
+        }
+        .card {
+            background-color: black;
+            outline-width: 1px;
+            outline-color: white;
+            outline-style: solid;
+            width:30rem;
+            height:40rem;
+            margin:5px;
+        }
+        .navbar{
+            background-color: ;
+            z-index:1;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            margin-left:5px;
+            margin-right:5px;
+        }
+        .collapse navbar-collapse {
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+        a, a:hover{
+            color: #ECF2FF;
+        }
+
+        .list-group-item{
+            background-color: #4c5265;
+        }
+        .navbar-toggler{
+            background-color: #4c5265;
+        }
+        .navbar-toggler-icon{
+            color: white;
+        }
+
+        .main-container {
+            align-items: center;
+            margin: auto;
+            width: 90%;
+        }
+        .card-body{
+            text-align: center;
+            font-size: 18px;
+        }
+
+        #showcase{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            height:100vh;
+            align-items: center;
+
+            margin-top:-56px;
+            background: rgba(0, 0, 0, 0.5);
+            outline-width: 1px;
+            outline-color: white;
+            outline-style: solid;
+            outline-offset:-10px;
+        }
+        #showcase h1 {
+            font-size: 200px;
+            font-family: "Times New Roman";
+            font-weight: bolder;
+            color: white;
+            text-align:center;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            top:px;
+        }
+        #showcase p{
+            font-size: 32px;
+            font-family: "Times New Roman";
+            color: white;
+            text-align:center;
+            margin-top:-10px;
+            padding-bottom: 0px;
+
+        }
+
+        #myVideo{
+            height:100vh;
+            width:100%;
+            display: flex;
+            object-fit: cover;
+            position: absolute;
+            justify-content: center;
+            z-index: -1;
+            align-items: center;
+            margin: 0;
+
+        }
+
+        #section2{
+            display: flex;
+
+            padding:50px;
+
+
+            margin-top:0px;
+            background: black;
+            outline-width: 1px;
+            outline-color: white;
+            outline-style: solid;
+            outline-offset:-10px;
+        }
+
+        #section3{
+            display: flex;
+
+            padding:50px;
+
+
+            margin-top:0px;
+            background: black;
+            outline-width: 1px;
+            outline-color: white;
+            outline-style: solid;
+            outline-offset:-10px;
+        }
+        #section4{
+
+            padding:50px;
+
+
+            margin-top:0px;
+            background: black;
+            outline-width: 1px;
+            outline-color: white;
+            outline-style: solid;
+            outline-offset:-10px;
+
+            text-align:center;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #section4 h{
+            font-size: 100px;
+            font-family: "Times New Roman";
+            font-weight: bold;
+            color: white;
+
+        }
+        #section5{
+
+            padding:50px;
+
+
+            margin-top:0px;
+            background: black;
+            outline-width: 1px;
+            outline-color: white;
+            outline-style: solid;
+            outline-offset:-10px;
+
+            text-align:center;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #section5 h{
+            font-size: 100px;
+            font-family: "Times New Roman";
+            font-weight: bold;
+            color: white;
+
+        }
+        #section6{
+
+            padding:50px;
+
+
+            margin-top:0px;
+            background: black;
+            outline-width: 1px;
+            outline-color: white;
+            outline-style: solid;
+            outline-offset:-10px;
+
+            text-align:center;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #section6 h{
+            font-size: 100px;
+            font-family: "Times New Roman";
+            font-weight: bold;
+            color: white;
+
+        }
+
+        .box {
+            padding:30px;
+            outline-width: 1px;
+            outline-color: dimgray;
+            outline-style: solid;
+            align-items: center;
+            text-align: center;
+            margin: 10px;
+            justify-content: center;
+        }
+
+        #mission h{
+            font-size: 5vw;
+            font-family: "Times New Roman";
+            font-weight: bold;
+            color: white;
+            text-align:center;
+        }
+        #mission p{
+            font-size: 3vh;
+            font-family: "Times";
+            color: white;
+            text-align:center;
+        }
+
+
+        #images {
+
+        }
+
+        .photo{
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+            object-fit: contain;
+            margin: 0px;
+        }
+        footer{
+            background:black;
+
+
+        }
+        .row{
+            text-align: center;
+            justify-content: center;
+        }
+
+        iframe{
+            width: 100%;
+            height:100vh;
+
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">NJ's Projects</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> = </span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#section4">Products<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/njespenido">Github</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://github.com/njespenido/Spring_2023_Class_Schedule">Spring Class Schedule</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://github.com/njespenido/self_bio_assignment">Self Bio Assessment</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="showcase">
+    <video autoplay muted loop id="myVideo">
+        <source src="F1.MP4" type="video/mp4">
+    </video>
+
+    <h1>STPD</h1>
+    <p>Source, Transform, Perfect, Drive</p>
+
+</div>
+<div class="main-container">
+<div id="section2">
+    <div class="row">
+        <div class="box col-sm" id="mission">
+            <h>Our Cause</h>
+            <p>This group is based around the racing simulator called Assetto Corsa. Assetto Corsa has grown in popularity
+                for its modding community. Many great cars and tracks have come from the Assetto Corsa Modding Community itself.
+                What makes STPD stand out is it strives for absolute perfection. Whether it is down to the textures of the stitches,
+                STPD prides itself in recreating the most accurate and visually appealing car mods in Assetto Corsa.</p>
+        </div>
+        <div class="col-sm" id="images">
+            <img class="photo" src="photo6.png" alt=""/>
+        </div>
+    </div>
+
+</div>
+<div id="section3">
+    <div class="row">
+        <div class="col-sm" id="services">
+            <img class="photo" src="photo2.png" alt=""/>
+        </div>
+        <div class="box col-sm" id="mission">
+            <h>Services</h>
+            <p>Our services are on a commission basis. Pricing heavily depends on the complexity of the car and
+            level of detail desired. STPD prides itself in accuracy of the model to its real life counterpart.
+            This usually means heavy modification and re-texturing of the raw model from Polyphony Digital. Inquiries
+            are free but a down payment of atleast 100 dollars is recquired.</p>
+        </div>
+    </div>
+</div>
+<div id="section4">
+
+            <h>Pricing</h>
+
+    <div class="row">
+        <div>
+            <div class="card">
+                <img class="card-img-top" src="photo1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Raw Convert</h5>
+                    <p class="card-text">Raw Gran Turismo convert to Assetto Corsa. Estimated $100-$200.</p>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nje5226@psu.edu&su=Inquiry&body=Hello, I would like to inquire about a raw convert for Assetto Corsa.&bcc=" class="btn btn-light">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img-top" src="photo7.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Detailed Convert</h5>
+                    <p class="card-text">Completely re-textured with custom textures that more accurately represent
+                        car. <br> Estimated $200-$300.</p>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nje5226@psu.edu&su=Inquiry&body=Hello, I would like to inquire about a detailed convert for Assetto Corsa.&bcc=" class="btn btn-light">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img class="card-img-top" src="photo4.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Custom Convert</h5>
+                    <p class="card-text">Custom made body kit and other things like rims and interiors. <br> Inquiry required.
+                    <br> Rough Estimate $200-500</p>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nje5226@psu.edu&su=Inquiry&body=Hello, I would like to inquire about a custom convert for Assetto Corsa.&bcc=" class="btn btn-light">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="section5">
+    <h>Contact Me</h>
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+
+        <!--Section heading-->
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+            a matter of hours to help you.</p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>801 Broadcasting Rd, Reading, PA 19610</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>610-396-6000</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>nje5226@psu.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+</div>
+    <div id="section6">
+        <h>From the Cloud</h>
+        <div class="row"></div>
+        <iframe src="https://www.youtube.com/embed/YEIzSmycuiM">
+        </iframe>
+    </div>
+    <footer>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright: Nicholai Espenido
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/02a430d3ed.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
